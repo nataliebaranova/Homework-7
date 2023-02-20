@@ -16,6 +16,7 @@
 
 .logo-img {
   padding-left: 180px;
+
 }
 
 .routing {
@@ -26,11 +27,12 @@
   margin-left: 25px;
   font-size: 12px;
   height: 28px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .buttons {
   display: inline-block;
+
 }
 
 .sign-in {
@@ -55,13 +57,16 @@
 }
 
 .main {
+
   display: inline-block;
+
 }
 
 .design_text {
-  margin-bottom: 5px;
-  margin-right: 3px;
-  display: inline-block;
+  
+    margin-bottom: 5px;
+    margin-right: 3px;
+    display: inline-block;
 }
 
 .design_text_header {
@@ -71,19 +76,23 @@
   padding-top: 60px;
   display: inline-block;
   flex-direction: column;
+  
 }
 
 .describtion {
   flex-direction: column;
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: 'Poppins';
+font-style: normal;
   font-size: 18px;
   line-height: 28px;
   display: inline-block;
   padding-right: 700px;
+
+
 }
 
 .buttons_link {
+
   margin-top: 45px;
   width: 361px;
   height: 53px;
@@ -109,9 +118,11 @@
 
 .design_tools {
   width: 1125px;
+
 }
 
 .design_tools_text {
+  
   width: 539px;
   height: 108px;
   text-align: center;
@@ -120,46 +131,65 @@
   margin-bottom: 54px;
   margin-left: 453px;
   margin-right: 453px;
+  
 }
 
 .icons {
   position: relative;
-}
-.icons .purple-icon {
-  margin-left: 110px;
-}
-.icons .yellow-icon {
-  margin-left: 150px;
-}
-.icons .red-icon {
-  margin-left: 190px;
-}
-.icons .blue-icon {
-  margin-left: 190px;
+
+  .purple-icon {
+    margin-left: 110px;
+  }
+
+  .yellow-icon {
+
+    margin-left: 150px;
+  }
+
+  .red-icon {
+    margin-left: 190px;
+
+  }
+
+  .blue-icon {
+    margin-left: 190px;
+  }
 }
 
 .icons-text {
   position: relative;
-}
-.icons-text .icons-text-first {
-  display: inline-block;
-  margin-left: 70px;
-  flex-direction: column-reverse;
-}
-.icons-text .cons-text-design {
-  display: inline-block;
-  margin-left: 200px;
-  flex-direction: column-reverse;
-}
-.icons-text .icons-text-preference {
-  display: inline-block;
-  margin-left: 110px;
-  flex-direction: column-reverse;
-}
-.icons-text .icons-text-five {
-  display: inline-block;
-  margin-left: 110px;
-  flex-direction: column-reverse;
+
+  .icons-text-first {
+    display: inline-block;
+    margin-left: 70px;
+    flex-direction: column-reverse;
+    }
+
+  .cons-text-design {
+    display: inline-block;
+    margin-left: 200px;
+    flex-direction: column-reverse;
+  }
+
+  .icons-text-preference {
+    display: inline-block;
+    margin-left: 110px;
+    flex-direction: column-reverse;
+  }
+
+  .icons-text-five {
+    display: inline-block;
+    margin-left: 110px;
+    flex-direction: column-reverse;}
 }
 
-/*# sourceMappingURL=index.css.map */
+.icons-paragraph {
+
+  &__icons-paragraph-first {}
+
+  &__icons-paragraph-second {}
+
+  &__icons-paragraph-third {}
+
+  &__icons-paragraph-forth {}
+}
